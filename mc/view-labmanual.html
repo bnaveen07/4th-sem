@@ -51,8 +51,8 @@
     document.addEventListener("adobe_dc_view_sdk.ready", function () {
       var adobeDCView = new AdobeDC.View({ clientId: "0f5b6a0885694cc0a9d5e2b6b6237388", divId: "adobe-dc-view" });
       adobeDCView.previewFile({
-        content: { location: { url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf" } },
-        metaData: { fileName: "Bodea Brochure.pdf" }
+        content: { location: { url: "./MC-LabManual.pdf" } },
+        metaData: { fileName: "MC Lab Manual" }
       }, { defaultViewMode: "FIT_WIDTH", dockPageControls: false });
     });
   </script>
