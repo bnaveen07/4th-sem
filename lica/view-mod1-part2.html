@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      background-color: rgb(53, 1, 102);
+      position: sticky;
+    }
+
+    body::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+    body::-webkit-scrollbar-track {
+      background: #230c3d;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: #430985;
+    }
+
+    embed {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Favicon  -->
+  <link rel="icon" href="../Favicon.jpg" type="image/logo" sizes="16x16">
+</head>
+
+<body>
+
+  <div id="adobe-dc-view"></div>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function () {
+      var adobeDCView = new AdobeDC.View({ clientId: "0f5b6a0885694cc0a9d5e2b6b6237388", divId: "adobe-dc-view" });
+      adobeDCView.previewFile({
+        content: { location: { url: "./LICA-MOD_1-Part_2.pdf" } },
+        metaData: { fileName: "LICA MOD1 Part2" }
+      }, { defaultViewMode: "FIT_WIDTH", dockPageControls: false });
+    });
+  </script>
+</body>
+
+</html>
