@@ -10,6 +10,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(53, 1, 102);
   position: sticky;
+    translate: no;
+
 }
 
 body::-webkit-scrollbar {
