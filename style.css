@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  font-size: 10px
 }
 
 body {
@@ -9,13 +8,11 @@ body {
   text-align: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(53, 1, 102);
+  background-color: #350166;
   position: sticky;
-    translate: no;
-
 }
 
-body::selection{
+body::selection {
   color: #4b1d80;
   background-color: #dfdfdf;
   text-shadow: 2px 2px #000000;
@@ -67,8 +64,8 @@ body::before {
 
 .btn-close {
   border: 1px solid rgb(221, 221, 221);
-  height: 1rem;
-  width: 1rem;
+  height: 10px;
+  width: 10px;
 }
 
 /* Nav Bar  */
@@ -84,13 +81,13 @@ nav {
 
 .navbar {
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: hsla(0, 0%, 100%, 0.102);
   overflow: hidden;
   justify-content: center;
   align-items: center;
   text-align: center;
   backdrop-filter: blur(10px);
-  border-radius: 0 0 1.2rem 1.2rem;
+  border-radius: 0 0 12px 12px;
 }
 .navbar-brand {
   color: rgb(221, 221, 221);
@@ -114,7 +111,7 @@ nav {
   text-decoration: none;
   letter-spacing: 1.5px;
   font-weight: bolder;
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 .navbar-toggler {
   background-image: rgb(221, 221, 221);
@@ -134,12 +131,12 @@ nav {
 
 .main-card .card {
   position: relative;
-  width: 35rem;
-  height: 45rem;
-  margin: 3rem;
-  box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: 450px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 1.5rem;
+  border-radius: 15px;
   overflow: hidden;
   justify-content: center;
   align-items: center;
@@ -150,7 +147,7 @@ nav {
 }
 
 .main-card .card .content {
-  padding: 2rem;
+  padding: 20px;
   text-align: center;
   font-weight: 500;
 }
@@ -177,20 +174,15 @@ nav {
   opacity: 1;
 }
 
-.link {
-  padding-top: 7rem;
-  list-style-type: none;
-}
-
 .main-card .card .content li a {
-  width: 8rem;
-  padding: .8rem 1.2rem;
+  width: 80px;
+  padding: 8px 12px;
   background: white;
   color: black;
-  border-radius: 2rem;
+  border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 footer {
@@ -203,7 +195,7 @@ footer span {
 footer span a {
   text-decoration: none;
   color: #dfdfdf;
-  font-size: 1.5rem;
+  font-size: 15px;
   z-index: 2;
   padding-right: 2%;
 }
@@ -216,7 +208,7 @@ footer span a {
   align-items: center;
   text-align: center;
   backdrop-filter: blur(10px);
-  border-radius: 1.2rem 1.2rem 0 0;
+  border-radius: 12px 12px 0 0;
 }
 
 @media screen and (max-width: 770px) {
@@ -244,8 +236,7 @@ footer span a {
     font-size: 0.8rem;
   }
 }
-}
-iframe
+
 @media screen and (max-width: 350px) {
   .heading {
     padding: 0;
@@ -255,5 +246,5 @@ iframe
     text-align: right;
     margin-left: 85%;
   }
-  
 }
+
