@@ -168,7 +168,9 @@ nav {
   transition: 0.5s;
   text-align: left;
 }
-
+.link {
+  list-style: none;
+}
 .main-card .card .content:hover li {
   transform: translateY(0);
   opacity: 1;
