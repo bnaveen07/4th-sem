@@ -168,10 +168,18 @@ nav {
   transition: 0.5s;
   text-align: left;
 }
+
 .link {
   list-style: none;
 }
-.main-card .card .content:hover li {
+
+.link:first-child {
+  margin-top: 40px;
+}
+.link:not(:last-child) {
+  margin-bottom: 40px;
+}
+.main-card .card:hover .content li {
   transform: translateY(0);
   opacity: 1;
 }
