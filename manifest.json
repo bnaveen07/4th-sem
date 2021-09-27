@@ -1,0 +1,19 @@
+{
+  "name": "4th SEM | DSCE",
+  "short_name": "4th SEM",
+  "start_url": "./index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#454544",
+  "description": "A website to access PDF of DSCE 4th SEM - ECE",
+  "dir": "ltr",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "./Favicon.png",
+      "type": "image/jpg"
+    }
+  ]
+}
