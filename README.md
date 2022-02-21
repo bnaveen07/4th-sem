@@ -1,5 +1,5 @@
 # 4th-Sem
-Here is a link for demo of this repo: https://naveenbasireddy.github.io/4th-sem/
+Here is a link for demo of this repo: https://bnaveen07.github.io/4th-sem/
 
 No copyright issues.
 
